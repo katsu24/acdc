@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<body>
+    <header>
+        <h1><img src="images/logo.jpg" width="217" height="89" alt="サイト名ロゴ"></h1>
+        <div class="menuleft">
+            <a href='index.php'>HOME</a>
+        </div>
+        <div class="menu">
+            <?php
+                if (!isset($_SESSION["name"])) {
+                    echo "<a href='login_form.php'>ログイン</a>&emsp; <a href='regist_mail_form.php'>新規登録</a>";
+
+                }else{
+                    echo "<a href='logout.php'>ログアウト<a>&emsp; <a href='mypage.php'>マイメニュー</a>";
+                }
+            ?>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,4 @@
+# Htmlファイルでphpを動作可能にする
+AddType application/x-httpd-php .php .html
+
+AddHandler application/x-httpd-php .php .html

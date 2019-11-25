@@ -1,0 +1,42 @@
+@charset "UTF=8";
+
+body,
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer p {
+    margin-bottom: 0;
+	text-align: center;
+}
+
+header {
+	width: 900px;
+	margin: 10px auto 10px auto;
+}
+
+header h1 {
+    margin-bottom: 0;
+	text-align: center;
+}
+
+header .menu {
+    float: right;
+    margin: 0 0 0 auto;
+}
+header .menuleft{
+    float:  left;
+    margin: 0 0 0 auto;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 150px;
+}
